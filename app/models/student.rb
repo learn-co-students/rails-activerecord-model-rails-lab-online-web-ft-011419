@@ -1,8 +1,7 @@
 class Student < ActiveRecord::Base
 
-  def concatenate
-    @name = "#{first_name}" + "#{last_name}"
-    @name.to_s
+  def to_s
+    self.first_name + " " + self.last_name
   end
 
 end
