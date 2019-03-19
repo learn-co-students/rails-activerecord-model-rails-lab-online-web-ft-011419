@@ -1,4 +1,4 @@
-hrequire 'rails_helper'
+require 'rails_helper'
 
 describe Student do
   before(:each) do
